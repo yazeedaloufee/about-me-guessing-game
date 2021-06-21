@@ -1,0 +1,25 @@
+header{background-color: #C490E4;
+margin: auto;}
+
+h1 {
+    font-size: 90px;
+    text-align: center;
+    color: blue;
+    
+}
+h2{
+    text-align: left;
+    color: red;
+    font-size: 70px;
+    text-shadow: 2px 2px;
+    background-color: #F9F9F9;
+
+}
+h3{
+    font-size: 50px;
+    background-color: #F9F9F9;
+}
+p { font-size: 30px;
+    background-color: #CDF0EA;
+
+}
