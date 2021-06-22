@@ -23,3 +23,12 @@ p { font-size: 30px;
     background-color: #CDF0EA;
 
 }
+ol{
+    
+    font-size: 30px;
+    border: 2px;
+    border-style: outset 2px;
+    border-color: green;
+    background-color: #FFD8CC;
+
+}
