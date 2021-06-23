@@ -2,6 +2,8 @@
 let c=0; 
 let username= prompt("what is your name?")
 alert("welcome "+username+". i will ask you a few questions about me if you dont mind.")
+question1();
+function question1(){
 
 let answer1 = prompt("am i an engineer? yes/no")
 
@@ -15,7 +17,9 @@ switch (answer1.toLowerCase()){
     alert("try harder")
     break;
 }
-
+}
+question2();
+function question2(){ 
 let answer2 = prompt("do i have bachelors of sience in civil engineering? yes/no")
 switch (answer2.toLowerCase()){
     case "yes":
@@ -27,7 +31,9 @@ switch (answer2.toLowerCase()){
     alert("true, i am an electronics engineer")
     break;
 }
-
+}
+question3();
+function question3(){ 
 let answer3 = prompt("have i worked at the german jordanian university? yes/no")
 switch (answer3.toLowerCase()){
     case "yes":
@@ -39,7 +45,9 @@ switch (answer3.toLowerCase()){
     alert("you need to be more accurate, I have worked there for 18 months")
     break;
 }
-
+}
+question4();
+function question4(){ 
 let answer4 = prompt("have i worked as a teacher before? yes/no")
 switch (answer4.toLowerCase()){
     case "yes":
@@ -51,6 +59,9 @@ switch (answer4.toLowerCase()){
     alert("i have actully, but i don't want it anymore")
     break;
 }
+}
+question5();
+function question5(){ 
 let answer5 = prompt("do i want to work at google? yes/no")
 switch (answer5.toLowerCase()){
     case "yes":
@@ -62,12 +73,14 @@ switch (answer5.toLowerCase()){
     alert("incorrect. i really want that , pray form me!")
     break;
 }
-alert("so "+username+", try to read through the page to find more information about me. and refresh the page to answer the questions again. try to get them all right this time")
+}
+
 
 let i =0;
 let coderAge=28;
 let userGuess=null;
-
+question6();
+function question6(){ 
 for(i;i<4;i++)
 {  userGuess= Number(prompt("try gueessing my age"));
 if(userGuess> coderAge){alert("you should guess a lower number")}
@@ -82,10 +95,12 @@ else if(coderAge == userGuess){
         alert(" my age is 28 better luck next time")
     }
 }
-
+}
  i =0;
 
 let userInput='';
+question7();
+function question7(){ 
 let sport= ["basketball", "calisthenics", "swiming", "body building"]
 
 for(i;i<6;i++)
@@ -104,6 +119,9 @@ for(i;i<6;i++)
                 break;
     }
     }
+
     alert("i played "+sport);
+}
 
     alert(" you have answered  "+c+" out of 7 questions correctly")
+    alert("so "+username+", try to read through the page to find more information about me. and refresh the page to answer the questions again. try to get them all right this time")
